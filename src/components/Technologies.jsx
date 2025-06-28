@@ -36,7 +36,7 @@ function Technologies() {
                 animate={{ scale: isSelected ? 1.05 : 1 }}
                 transition={{ duration: 0.01, ease: 'easeInOut' }}
                 className={`
-                  xl:px-20 px-10 py-5 rounded-xl border-white border-2 text-center text-white cursor-pointer 
+                  xl:px-20 px-6 py-5 rounded-xl border-white border-2 text-center text-white cursor-pointer 
                   transition-all duration-200 
                   ${isSelected
                     ? 'bg-gradient-to-r from-cyan-800 via-blue-400 to-cyan-800'
