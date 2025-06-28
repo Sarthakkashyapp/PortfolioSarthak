@@ -9,12 +9,12 @@ const Hero = () => {
         <motion.img 
           src={Sarthakimage} 
           alt="" 
-          className='border-white group-hover:border-blue-800 duration-300 border-2 rounded-2xl  group-hover:grayscale-0  md:h-full md:w-full h-[400px] object-cover' 
+          className='border-white group-hover:border-blue-800 group-active:border-blue-800 duration-300 border-2 rounded-2xl  group-hover:grayscale-0  md:h-full md:w-full h-[400px] object-cover' 
           initial={{opacity:0}}
           animate={{opacity:1}}
           transition={{duration:2, ease:"easeIn"}}
         />
-        <div className="text-white absolute inset-0 bg-opacity-50 flex flex-col items-start justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-300 xl:pb-10 xl:pr-60 lg:pb-10 lg:pr-132 md:pb-8 md:pr-72  pb-6 pl-10 font-[inter]">
+        <div className="text-white absolute inset-0 bg-opacity-50 flex flex-col items-start justify-end opacity-0 group-hover:opacity-100 group-active:opacity-100 transition-opacity duration-300 xl:pb-10 xl:pr-60 lg:pb-10 lg:pr-132 md:pb-8 md:pr-72  pb-6 pl-10 font-[inter]">
            <p className="xl:text-2xl md:text-2xl text-xl font-bold mr-4 md:mr-0">Sarthak kashyap</p>
            <p className="xl:text-xl md:text-xl text-lg font-semibold">Software Engineer</p>
         </div>
