@@ -3,6 +3,7 @@ import Voyagerai from '../assets/homepage.png';
 import chatApp from '../assets/chatApp.png';
 import Homesphere from '../assets/Homesphere.png';
 import Carboncrunch from '../assets/Carboncrunch.png';
+import MonoNote from '../assets/MonoNote.png'
 
 export const projectData = [
   {
@@ -40,5 +41,14 @@ export const projectData = [
     image: Carboncrunch,
     github:`https://github.com/Sarthakkashyapp/carbon-crunch`,
     livelink:`https://carbon-crunch-seven.vercel.app/`
+  },
+  {
+    id:5,
+    title: 'MonoNote - Your personal Note Taking App',
+    desc: ` a clean and fully functional note-taking app built using the MERN stack. It features seamless CRUD operations, 
+    dynamic UI updates, toast notifications, and responsive design.`,
+    image: MonoNote,
+    github:`https://github.com/Sarthakkashyapp/MonoNote`,
+    livelink:`https://mononote-1.onrender.com/`
   }
 ];
