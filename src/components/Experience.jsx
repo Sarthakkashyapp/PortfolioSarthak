@@ -7,7 +7,7 @@ function Experience() {
   const[selectedIndex, setselectedIndex] = useState(null);
 
   const handleIndex = (id) => {
-    setselectedIndex(id)
+    setselectedIndex(prev => (prev === id ? null : id))
   }
 
   return (
@@ -24,7 +24,7 @@ function Experience() {
           <div key={experience.id} className={`flex flex-row items-center justify-between border-2 border-white rounded-xl w-full max-w-5xl px-3 lg:px-12 py-6 
            ${selectedIndex === experience.id ? 'bg-gradient-to-r from-[rgba(255,255,255,0.1)] via-[rgba(255,255,255,0.2)] to-[rgba(255,255,255,0) transition-transform duration-200 shadow-gray-500 shadow-lg': 
            'hover:bg-gradient-to-r from-[rgba(255,255,255,0.1)] via-[rgba(255,255,255,0.2)] to-[rgba(255,255,255,0) transition-transform duration-200 shadow-gray-500 hover:shadow-lg'}`} 
-           onClick={() => handleIndex(experience.id)}>
+            onClick={() => handleIndex(experience.id)}>
             <p className='text-sm xl:text-xl'>{experience.date}</p>
             <div className='flex flex-col gap-2 items-end'>
               <p className='xl:text-2xl text-xl'>{experience.name}</p>
