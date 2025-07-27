@@ -48,7 +48,7 @@ const Header = () => {
                 ☰
             </div>
 
-            <div className= {`fixed top-0 right-0 h-screen w-full bg-[#0a0a0a] text-white rounded-sm shadow-lg p-6 z-[99] transform transition-transform duration-300 ease-in-out
+            <div className= {`fixed top-0 right-0 h-screen w-full bg-[#0a0a0a] text-white shadow-lg p-6 z-[99] transform transition-transform duration-300 ease-in-out
                 ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}> 
 
                 <div className='flex justify-end' >
@@ -64,7 +64,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a href="#projects" className='flex flex-row gap-2' onClick={handleMenu}>
-                      <GoProjectSymlink className='mt-1.5 w-5 h-5 flex items-center justify-center'/>
+                      <GoProjectSymlink className='mt-2 w-5 h-5 flex items-center justify-center'/>
                       <p>projects</p>
                     </a>
                   </li>
