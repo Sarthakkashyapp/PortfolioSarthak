@@ -15,7 +15,7 @@ function Footer() {
       <div className='text-white text-lg flex xl:gap-10 gap-6'>
         <a href="https://www.linkedin.com/in/sarthak-kashyapp/" className='hover:underline'>
           <p className='lg:block hidden'>LinkedIn</p>
-          <FaLinkedinIn className='text-white lg:hidden text-3xl cursor-pointer v'/>
+          <FaLinkedinIn className='text-white lg:hidden text-3xl cursor-pointer'/>
         </a>
         <a href="https://drive.google.com/file/d/1B96tjWaXwX-TfF5Tqn6S5dGTNbaktioZ/view?usp=sharing" className='hover:underline'>
           <p className='lg:block hidden'>Resume</p>
