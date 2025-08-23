@@ -17,7 +17,7 @@ function Footer() {
           <p className='lg:block hidden'>LinkedIn</p>
           <FaLinkedinIn className='text-white lg:hidden text-3xl cursor-pointer'/>
         </a>
-        <a href="https://drive.google.com/file/d/1B96tjWaXwX-TfF5Tqn6S5dGTNbaktioZ/view?usp=sharing" className='hover:underline'>
+        <a href="https://drive.google.com/file/d/18a4ZCE2nVRKdTKbjwoMfN-gU0TDw_AIn/view?usp=drive_link" className='hover:underline'>
           <p className='lg:block hidden'>Resume</p>
           <img src={resumeicon} alt="icon" className='invert brightness-0 lg:hidden text-3xl cursor-pointer h-7.5 w-8 hover:scale-105'/>
         </a>
