@@ -4,8 +4,18 @@ import chatApp from '../assets/chatApp.png';
 import Homesphere from '../assets/Homesphere.png';
 import Carboncrunch from '../assets/Carboncrunch.png';
 import MonoNote from '../assets/MonoNote.png'
+import Summarizerly from '../assets/summarizerly.png'
 
 export const projectData = [
+  {
+    id: 1,
+    title: 'Summarizerly - An AI Powered PDF Summarizer',
+    desc: `AI-powered PDF summarization platform that generates clear, structured insights from your documents.
+Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescript Summarizerly provides secure file handling, interactive summaries, and a production-ready experience.`,
+    image: Summarizerly,
+    github:`https://github.com/Sarthakkashyapp/Summarizerly`,
+    livelink: `https://summarizerly.vercel.app/`
+  },
   {
     id: 1,
     title: 'Voyager-AI - An AI Travel Planner',
