@@ -13,7 +13,7 @@ export const projectData = [
     desc: `AI-powered PDF summarization platform that generates clear, structured insights from your documents.
 Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescript Summarizerly provides secure file handling, interactive summaries, and a production-ready experience.`,
     image: Summarizerly,
-    github:`https://github.com/Sarthakkashyapp/Summarizerly`,
+    github: `https://github.com/Sarthakkashyapp/Summarizerly`,
     livelink: `https://summarizerly.vercel.app/`
   },
   {
@@ -22,43 +22,43 @@ Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescri
     desc: `VOYAGER AI aims to simplify the travel planning process by leveraging artificial intelligence to generate customized travel 
     itineraries and suggest hotels that align with the user's preferences.`,
     image: Voyagerai,
-    github:`https://github.com/Sarthakkashyapp/Voyage-AI`,
+    github: `https://github.com/Sarthakkashyapp/Voyage-AI`,
     livelink: `https://voyager-ai-trip-planner.vercel.app/`
   },
   {
-    id:2,
+    id: 2,
     title: 'Social-Sync - A Realtime Chat App',
     desc: `A real-time chat application featuring secure authentication, authorization, and efficient global state 
     management. Users can seamlessly sign up, log in, and engage in instant messaging with others in a responsive and 
     intuitive interface.`,
     image: chatApp,
-    github:`https://github.com/Sarthakkashyapp/SocialSync`,
-    livelink:`https://socialsync-ct5t.onrender.com/`
+    github: `https://github.com/Sarthakkashyapp/SocialSync`,
+    livelink: `https://socialsync-ct5t.onrender.com/`
   },
   {
-    id:3,
+    id: 3,
     title: 'HomeSphere - A Real Estate website',
     desc: `HomeSphere! This project demonstrates a feature-rich, fully responsive real estate website built 
     with the latest version of Next.js, TailwindCSS and Clerk for user authentication, and MongoDB for robust backend data management.`,
     image: Homesphere,
-    github:`https://github.com/Sarthakkashyapp/HomeSphere`,
-    livelink:`https://home-sphere-snowy.vercel.app/`
+    github: `https://github.com/Sarthakkashyapp/HomeSphere`,
+    livelink: `https://home-sphere-snowy.vercel.app/`
   },
   {
-    id:4,
+    id: 4,
     title: 'Carbon-Crunch - A Freelance Project',
     desc: `Carbon Crunch is a platform designed to provide real-time carbon tracking and insights using AI-powered data analysis. (Frontend only).`,
     image: Carboncrunch,
-    github:`https://github.com/Sarthakkashyapp/carbon-crunch`,
-    livelink:`https://carbon-crunch-seven.vercel.app/`
+    github: `https://github.com/Sarthakkashyapp/carbon-crunch`,
+    livelink: `https://carbon-crunch-seven.vercel.app/`
   },
-  {
-    id:5,
-    title: 'MonoNote - Your personal Note Taking App',
-    desc: ` a clean and fully functional note-taking app built using the MERN stack. It features seamless CRUD operations, 
-    dynamic UI updates, toast notifications, and responsive design.`,
-    image: MonoNote,
-    github:`https://github.com/Sarthakkashyapp/MonoNote`,
-    livelink:`https://mononote-1.onrender.com/`
-  }
+  // {
+  //   id:5,
+  //   title: 'MonoNote - Your personal Note Taking App',
+  //   desc: ` a clean and fully functional note-taking app built using the MERN stack. It features seamless CRUD operations, 
+  //   dynamic UI updates, toast notifications, and responsive design.`,
+  //   image: MonoNote,
+  //   github:`https://github.com/Sarthakkashyapp/MonoNote`,
+  //   livelink:`https://mononote-1.onrender.com/`
+  // }
 ];
