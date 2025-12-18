@@ -20,7 +20,7 @@ function Experience() {
       </div>
 
       <motion.div className='w-full flex flex-col items-center justify-center mt-16 mx-6 gap-6 md:px-6 px-1.5'>
-        {experienceData.map((experience, index) => (
+        {experienceData.map((experience) => (
           <div key={experience.id} className={`flex flex-row items-center justify-between border-2 border-white rounded-xl w-full max-w-5xl px-3 lg:px-12 py-6 
            ${selectedIndex === experience.id ? 'bg-gradient-to-r from-[rgba(255,255,255,0.1)] via-[rgba(255,255,255,0.2)] to-[rgba(255,255,255,0) transition-transform duration-200 shadow-gray-500 shadow-lg': 
            'hover:bg-gradient-to-r from-[rgba(255,255,255,0.1)] via-[rgba(255,255,255,0.2)] to-[rgba(255,255,255,0) transition-transform duration-200 shadow-gray-500 hover:shadow-lg'}`} 

@@ -17,7 +17,7 @@ const Projects= () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-white xl:mt-20 mt-16 mx-6">
-        {projectData.map((project, index) => (
+        {projectData.map((project) => (
         <div key={project.id} className=" p-6 rounded-2xl border-2 border-white space-y-4">
          <div className='rounded-lg overflow-hidden hover:scale-105 transition-transform duration-400'>
           <img src={project.image} alt=""  />

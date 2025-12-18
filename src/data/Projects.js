@@ -17,7 +17,7 @@ Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescri
     livelink: `https://summarizerly.vercel.app/`
   },
   {
-    id: 1,
+    id: 2,
     title: 'Voyager-AI - An AI Travel Planner',
     desc: `VOYAGER AI aims to simplify the travel planning process by leveraging artificial intelligence to generate customized travel 
     itineraries and suggest hotels that align with the user's preferences.`,
@@ -26,7 +26,7 @@ Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescri
     livelink: `https://voyager-ai-trip-planner.vercel.app/`
   },
   {
-    id: 2,
+    id: 3,
     title: 'Social-Sync - A Realtime Chat App',
     desc: `A real-time chat application featuring secure authentication, authorization, and efficient global state 
     management. Users can seamlessly sign up, log in, and engage in instant messaging with others in a responsive and 
@@ -36,7 +36,7 @@ Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescri
     livelink: `https://socialsync-ct5t.onrender.com/`
   },
   {
-    id: 3,
+    id: 4,
     title: 'HomeSphere - A Real Estate website',
     desc: `HomeSphere! This project demonstrates a feature-rich, fully responsive real estate website built 
     with the latest version of Next.js, TailwindCSS and Clerk for user authentication, and MongoDB for robust backend data management.`,
@@ -45,7 +45,7 @@ Built with Next.js 15, LangChain, Clerk, Gemini-2.5-flash-lite, NeonDB, typescri
     livelink: `https://home-sphere-snowy.vercel.app/`
   },
   {
-    id: 4,
+    id: 5,
     title: 'Carbon-Crunch - A Freelance Project',
     desc: `Carbon Crunch is a platform designed to provide real-time carbon tracking and insights using AI-powered data analysis. (Frontend only).`,
     image: Carboncrunch,
