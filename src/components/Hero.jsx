@@ -46,7 +46,7 @@ const Hero = () => {
           Hi, I'm Sarthak Kashyap — a final year Computer Science Engineering undergraduate at Maharaja Surajmal Institute of Technology, New Delhi.
         </h2>
         <p className='xl:text-lg text-gray-400'>
-          I'm a passionate developer with a strong foundation in Java and JavaScript, experienced in building full-stack apps using the MERN stack and Next.js. I'm also exploring DevOps to deepen my understanding of deployment and infrastructure, while staying curious about new technologies and open to collaboration.
+          I’m a passionate developer with a strong foundation in Java and JavaScript, experienced in building full-stack applications using the MERN stack and Next.js. I’m actively exploring Generative AI by building hands on projects with modern AI tools and frameworks, while staying curious about new technologies and open to collaboration
         </p>
         <p className='xl:text-lg text-gray-400'>
           Welcome to my portfolio — feel free to explore my work, and if you're interested in collaborating or have freelance opportunities in mind, don't hesitate to reach out. Let's build something impactful together!

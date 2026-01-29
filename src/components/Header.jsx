@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {motion, useScroll} from 'motion/react';
+import {motion, useScroll} from 'framer-motion';
 import { FaLinkedinIn, FaXTwitter } from 'react-icons/fa6';
 import { FiGithub } from 'react-icons/fi';
 import { MdOutlineEmail } from 'react-icons/md';

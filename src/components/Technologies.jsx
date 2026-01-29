@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 function Technologies() {
   const techs = [
-    "Javascript", "React", "Next.js", "Node.js", "Express",
-    "MongoDB", "PostgreSQL", "TailwindCSS", "Git", "Github",
-    "Docker", "REST API's", "Prisma"
+    "Javascript", "Typescript", "React", "Next.js", "Node.js", "Express",
+    "MongoDB", "NeonDB", "PostgreSQL", "TailwindCSS", "Git", "Github",
+    "Docker", "REST API's", "Prisma",
   ];
 
   const [selectedIndex, setSelectedIndex] = useState(null);
